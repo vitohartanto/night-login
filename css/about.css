@@ -186,7 +186,7 @@
     height: 50%;
 }
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 300px) {
     .navbar-brand{
         width: 60%;
         margin-left: 0;

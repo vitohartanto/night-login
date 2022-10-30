@@ -1,5 +1,51 @@
+body{
+    background-color: #D2243F;
+    overflow: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red-curve-wrap-1 {
+    position: static;
+    /* z-index: 15; */
+    background-color: transparent;
+    height: auto;
+}
+
+.bulat-11 {
+    position: absolute;
+    top: -100%;
+    left: -30%;
+    width: 1903px;
+    aspect-ratio: 1 / 1;
+    background-color: #D2243F;
+    border-radius: 100%;
+    z-index: 12;
+    overflow: hidden;
+}
+
+.bulat-22 {
+    position: absolute;
+    top: -200%;
+    left: -60%;
+    width: 2537px;
+    aspect-ratio: 1 / 1;
+    background-color: #DD304B;
+    border-radius: 100%;
+    z-index: 11;
+    overflow: hidden;
+}
+
+
 .row-edit{
-    margin-top: -50px;
+    margin: -70px 0 0 0;
+    padding:0;
+    position: relative;
+    display: block;
 }
 .title-nl{
     font-size: 1.5em;
@@ -7,21 +53,34 @@
     margin-top: 10px;
     width: 100%;
     position: relative;
+    display: block;
 }
 
 .title-nl .welcome-title::after{
     content: '';
     background-image: url("../images/vektor.png");
     background-repeat: no-repeat;
-    width: 100%;
+    width: 150px;
     height: 100%;
     position: absolute;
     top: -50px;
 
 }
 
+.hero{
+    height: auto;
+}
+
+
 .welcome-title{
     font-size: 96px;
+}
+
+.row-edit-2{
+    margin:0;
+    padding: 0;
+    position: relative;
+    display: block;
 }
 
 .dropdown{
@@ -58,4 +117,164 @@
     padding: 10px;
     color: #2A3230;
     border: none;
+}
+
+.proj{
+    margin-bottom: 100px;
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    height: auto;
+}
+
+@media only screen and (max-width: 700px){
+    .dropdown{
+        width: 90%;
+    }
+
+
+    .proj{
+        grid-template-columns: auto;
+    }
+}
+
+.card{
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    font-family: "Poppins";
+
+}
+
+.head-card{
+    display: flex;
+    padding: 10px;
+}
+
+.title-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-card h3{
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+    color: #DD304B;
+    margin-bottom: 10px;
+}
+
+.cont-card{
+    height: 30%;
+}
+
+.desc-card p{
+    height: 40%;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1E1E1E;
+    text-align: justify;
+
+}
+
+
+.footer{
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 179px;
+    
+}
+
+.pattern-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-footer{
+    width: 100%;
+    height: 80px;
+    background-color: #2F2F2F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text-footer .title-ft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+
+.text-footer .title-ft p{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins';
+    margin-top: 15px;
+}
+
+.text-footer .title-ft img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.socmed-ft{
+    display: flex;
+    margin-right: 100px;
+}
+
+.socmed-ft .link-socmed-ft:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+.socmed-ft .link-socmed-ft{
+    width: 40px;
+    height: 40px;
+    background-color: #FFF9F8;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.socmed-ft .link-socmed-ft img {
+    width: 50%;
+    height: 50%;
+}
+
+.sudut{
+    width: 300px;
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    z-index: -1;
+}
+
+.sudut img{
+    width: 100%;
 }

@@ -1,6 +1,8 @@
 body{
     height: 100vh;
+    background-color: #D2243F;
 }
+
 
 .main-2{
     height: 100%;
@@ -126,6 +128,7 @@ body{
     padding-bottom: 0;
     display: flex;
     flex-direction: column;
+
 }
 
 .pattern-footer{

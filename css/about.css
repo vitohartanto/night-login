@@ -31,8 +31,6 @@
 
 .row-edit{
     margin-top: -50px;
-    display: flex;
-    flex-direction: row;
 }
 
 .title-nl{
@@ -65,6 +63,7 @@
 
 }
 .half-2 {
+    width: 50%;
     margin: auto;
     width: 100%;
     /* margin-top: -100px; */

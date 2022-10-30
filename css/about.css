@@ -254,6 +254,11 @@
         height: 50px;
     }
 
+    .pattern-footer{
+        display: flex;
+        flex-direction: row;
+    }
+
     .pattern-footer div{
         width: 50%;
     }

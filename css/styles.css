@@ -1,0 +1,509 @@
+body {
+    font-family: "Poppins";
+    background-color: #D2243F;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#title {
+
+    color: #FFF;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: "Poppins";
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+h4 {
+    font-family: "Poppins";
+    font-weight: bold;
+
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    --bs-gutter-x: 0rem;
+}
+
+/* Navigation Bar */
+.navbar {
+    margin: 0 0 10rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.navbar-brand {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 40px;
+}
+
+.nav-link {
+    margin-right: 40px;
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    color: white;
+}
+
+.navbar-toggler {
+    margin-right: 40px;
+}
+
+
+/* See More Button */
+.see-button {
+    margin: 8% 3% 6rem 3%;
+    color: white;
+
+}
+
+.animation-bounce {
+    animation: bounce 1s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+
+    50% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+
+
+/* Title image */
+
+.rounded-red {
+    background-color: #A21A2E;
+    margin: auto;
+    border-radius: 30px;
+    width: 200px;
+    height: 54px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: white;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+}
+
+.welcome {
+    font-size: 96px;
+}
+
+.vector-img {
+    position: absolute;
+    width: 115px;
+    height: 105px;
+    left: 1340px;
+    top: 250px;
+
+}
+
+.half {
+    width: 50%;
+    margin: auto;
+    width: 603px;
+    height: 72px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+}
+
+.bulat1 {
+    position: absolute;
+    top: -180%;
+    left: -40%;
+    width: 150%;
+    aspect-ratio: 1 / 1;
+    background-color: #D2243F;
+    border-radius: 100%;
+    z-index: 5;
+}
+
+.bulat2 {
+    position: absolute;
+    top: -200%;
+    left: -60%;
+    width: 200%;
+    aspect-ratio: 1 / 1;
+    background-color: #DD304B;
+    border-radius: 100%;
+}
+
+.red-curve{
+    position: absolute;
+    width: 100%;
+    height: 2%;
+    top: 38%;
+    left: 0%;
+}
+
+
+.main {
+    position: relative;
+    z-index: 10;
+}
+
+.all-teams {
+    position: relative;
+    z-index: 10;
+}
+
+/* Events Section */
+#events {
+    padding: 100px;
+    text-align: center;
+}
+
+.white-background {
+    background-color: white;
+    border-radius: 200px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.events-title {
+    font-size: 72px;
+    color: #FFFFFF;
+    line-height: 108px;
+}
+
+.carousel-background {
+    background-color: #A21A2E;
+}
+
+.carousel-control-events {
+    background-image:
+        url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff0000'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+
+}
+
+.carousel-control-events2 {
+    background-image:
+        url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff0000'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.events-card {
+    background-color: white;
+    border-radius: 20px 0px;
+
+    padding-top: 20px;
+    height: 100%;
+
+}
+
+.events-wrap {
+    width: 100%;
+    margin: auto;
+    padding: 0 30px;
+
+}
+
+.events-card-wrap {
+    margin: auto;
+    width: 100%;
+}
+
+
+.card-title {
+    margin: 2% 0 0 0;
+    color: #D2243F;
+}
+
+.paragraphtext {
+    text-align: justify;
+    font-size: 12px;
+    color: #1E1E1E;
+    line-height: 18px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraphtext_events {
+    max-width: 100%;
+    min-width: 0;
+    padding: 2%;
+    font-size: 12px;
+    line-height: 18px;
+    width: 100%;
+}
+
+.events-img {
+    margin-top: 5%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.events-column {
+    padding: 3% 2%;
+}
+
+/*Our Teams Section */
+.teams-title {
+    font-size: 72px;
+    color: #FFFFFF;
+    line-height: 108px;
+    padding-top: 80px;
+}
+
+.teams-column {
+    padding: 3% 2%;
+    width: 450px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.15);
+    margin: 40px 30px 30px 30px;
+}
+
+.red-background {
+    background-color: #D2243F;
+    border-radius: 200px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.red-wrap {
+    padding-bottom: 0px;
+}
+
+.card-body-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.teams-img {
+    margin-top: 5%;
+    width: 100%;
+    aspect-ratio: 1/0.8;
+}
+
+.teams-card {
+    background-color: white;
+    padding: 30px 36px 25px 36px;
+    border-radius: 20px 0px;
+    height: 100%;
+}
+
+.black-text {
+    color: #1E1E1E;
+    padding-top: 8px;
+}
+
+.red-text {
+    color: #D2243F;
+}
+
+.name-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.white-back {
+    background-color: #FFF;
+    border-radius: 20px 0px;
+    margin: 20px 0;
+    padding: 2px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.black-text {
+    color: #2F2F2F;
+    font-size: 36px;
+}
+
+#ourteams {
+
+    text-align: center;
+    /* background-color: #ef8172; */
+    background-color: white;
+    color: #fff;
+}
+
+.testimonial-image {
+    margin: 20px;
+    border-radius: 100%;
+    width: 15%;
+}
+
+
+
+.carousel-item {
+    padding: 3% 10%;
+
+}
+
+/* Community Teams */
+#community {
+    padding: 100px;
+    text-align: center;
+    background-color: white;
+}
+
+.community-title {
+    width: 500px;
+}
+
+.management-title {
+    width: 400px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.see-project {
+    color: #2A3230;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+.see-project:hover {
+    color: #D2243F;
+}
+
+.paragraphtext_com {
+    font-size: 18px;
+    max-width: 100%;
+    min-width: 0;
+    padding: 20px;
+}
+
+.card-com {
+    height: 100%;
+    border-radius: 20px 0px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.15);
+}
+
+.team-row {
+    justify-content: center;
+}
+
+.team-name {
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+}
+
+.little-desc {
+    color: #DD304B;
+}
+
+
+/* Back Button */
+.back-button {
+    margin-left: auto;
+    display: block;
+    width: fit-content;
+    margin-right: 50px;
+    margin-top: -80px;
+    padding-bottom: 20px;
+}
+
+.back{
+    background-color: white;
+}
+
+/* Footer */
+.pattern {
+    width: 100%;
+}
+
+#footer {
+    font-size: 24px;
+}
+
+.logo-black {
+    margin-left: 40px;
+}
+
+.footer {
+    background-color: #2F2F2F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.round-logo {
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+    margin: 20px;
+    max-width: 100%;
+    min-width: 0;
+
+}
+
+.social {
+    background-color: white;
+    border-radius: 100%;
+    width: 40px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2A3230;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.sos-links {
+    text-decoration: none;
+}
+
+.sos-links:hover {
+    background-color: #D2243F;
+}

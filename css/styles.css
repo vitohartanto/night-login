@@ -4,7 +4,6 @@ body {
     width: 100%;
     overflow-x: hidden;
 
-
 }
 
 #title {
@@ -131,10 +130,24 @@ p {
     position: absolute;
     width: 115px;
     height: 105px;
+    /* left: 88%;
+    top: 30%; */
     left: 1340px;
-    top: 250px;
-
+    top: 260px;
 }
+
+@media only screen and (max-width: 768px) {
+    .vector-img {
+        display: hidden;
+    }
+}
+
+@media screen {}
+
+/* .title-text{
+    max-width: 100%;
+    min-width: 0;
+} */
 
 .half {
     width: 50%;
@@ -157,7 +170,8 @@ p {
     position: absolute;
     top: -180%;
     left: -40%;
-    width: 1903px;
+    /* width: 1903px; */
+    width: 150%;
     aspect-ratio: 1 / 1;
     background-color: #D2243F;
     border-radius: 100%;
@@ -168,7 +182,8 @@ p {
     position: absolute;
     top: -200%;
     left: -60%;
-    width: 2537px;
+    /* width: 2537px; */
+    width: 200%;
     aspect-ratio: 1 / 1;
     background-color: #DD304B;
     border-radius: 100%;
@@ -210,13 +225,15 @@ p {
     width: 100%;
     z-index: 15;
     border-radius: 0 0 100px 100px;
+    height: 100%;
+
 }
 
 .red-curve-wrap {
     position: static;
-    /* z-index: 15; */
     background-color: #D2243F;
     border-radius: 0 0 100px 100px;
+    height: 100%;
 }
 
 .white-curve {
@@ -227,13 +244,13 @@ p {
 
 .white-curve-wrap {
     position: static;
-    /* z-index: 15; */
     background-color: white;
 }
 
 .main {
     position: relative;
     z-index: 10;
+    height: 100%;
 }
 
 
@@ -436,7 +453,6 @@ p {
 #community {
     padding: 100px;
     text-align: center;
-    /* background-color: white; */
 }
 
 .community-title {
